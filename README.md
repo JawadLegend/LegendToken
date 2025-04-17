@@ -2,10 +2,9 @@ This a demo token and should not be use for production purposes.
 
 run :
     ``npm install`` to install the dev dependencies.
-
-    ``npx hardhat run scripts/deploy.js --network sepolia`` to deploy the contract/token.
-
-    ``npx hardhat run scripts/airdrop.js --network sepolia`` to sign a tx using the terminal.
+    ``npx hardhat test`` to run the test
+    ``npx hardhat run scripts/deploy.js --network sepolia`` to deploy the contract/token
+    ``npx hardhat run scripts/airdrop.js --network sepolia`` to sign a tx using the terminal
 
  You can also add the token to metamask to sign tx more easily.
 
